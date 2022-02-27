@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="/addUser" method="post">
+		First Name:<input type="text" name="firstName"><br>
+		Last Name:<input type="text" name="lastName"><br>
+		Address:<input type="text" name="address"><br>
+		City:<input type="text" name="city"><br>
+		Pincode:<input type="number" name="pinCode"><br>
+		Mobile_No:<input type="text" name="mobileNo"><br>
+		Email:<input type="text" name="email"><br>	
+		Username:<input type="text" onblur()="checkUserName()" name="userName"><br>
+		Password:<input type="password" name="password"><br>
+		<input type="submit" value="submit">
+	</form>
+</body>
+</html>
